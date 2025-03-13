@@ -27,4 +27,4 @@ jobs:
     - run: npm i
     - run: npm run build --if-present
     - run: npm test
-    - echo: test pass
+    - run: echo "test pass"
